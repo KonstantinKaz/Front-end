@@ -4,6 +4,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
+    overflow-x:hidden;
 }
 
 :root{
@@ -192,7 +193,7 @@ button{
 .sorting-trash{
     padding-top: 300px;
     position: relative;
-    padding-bottom: 200px;
+    padding-bottom: 600px;
     display: flex;
     justify-content: space-between;
 }
@@ -204,7 +205,7 @@ button{
     background: rgba(10, 10, 10, .65);
     box-shadow: 0 8px 32px rgb(2, 4, 24);
     border-right: 2px solid rgba(255, 255, 255, .09);
-    padding: 2%;
+    padding: 2%;;
 }
 
 
@@ -262,3 +263,26 @@ button{
     line-height: 30px;
 }
 
+
+.katalog-trash__img{
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0%;
+    left: 15%;
+}
+
+.sorting-trash__img{
+    /* position: absolute;
+    transform: rotate(90deg);
+    width: 100%;
+    bottom: 10%; */
+
+    position: absolute;
+    transform: rotate(90deg);
+    width: 100vh;
+    /* bottom: 0%; */
+    top: 20%;
+    right: 20%;
+}
