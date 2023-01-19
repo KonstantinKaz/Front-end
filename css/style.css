@@ -193,7 +193,7 @@ button{
 .sorting-trash{
     padding-top: 300px;
     position: relative;
-    padding-bottom: 600px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -273,16 +273,12 @@ button{
     left: 15%;
 }
 
-.sorting-trash__img{
-    /* position: absolute;
-    transform: rotate(90deg);
-    width: 100%;
-    bottom: 10%; */
+/* .sorting-trash__img{
 
     position: absolute;
     transform: rotate(90deg);
     width: 100vh;
-    /* bottom: 0%; */
+
     top: 20%;
     right: 20%;
-}
+} */
