@@ -3,7 +3,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    color: #fff;
 }
 
 :root{
@@ -17,3 +17,70 @@ body{
 }
 
 
+/* Tegs */
+
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+span{
+    display: block;
+}
+
+
+/* Header */
+
+
+.header__containe{
+    background-color: var(--bg);
+}
+.img {
+    width: 100%;
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    gap: 50px;
+    padding: 50px;
+    
+}
+
+
+
+
+
+
+
+
+/* Main */
+
+
+.main{
+    background-color: var(--bg);
+}
+
+.coffee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coffee__img{
+    margin-left: 5%;
+    max-width: 50%;
+}
+.coffee__title{
+    font-family: var(--otherFont);
+    font-size: 80px;
+    color: #FFFBF2;
+}
+.coffee__text{
+    color: var(--accentСolor);
+}
