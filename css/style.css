@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@500;600&display=swap');
 
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 :root{
@@ -52,10 +57,17 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 45%;
+    margin-left: 30%;
     gap: 50px;
     padding: 50px;
     
+}
+.list__item a{
+    font-size: 24px;
+}
+.list__item a:hover{
+    color: #E4717A;
+    transition: .5s ease-in-out;
 }
 
 
@@ -102,10 +114,10 @@ button{
 
 
 
-/* katalogActions */
+/* сatalogActions */
 
 
-.katalogActions{
+.сatalogActions{
     position: relative;
     padding-bottom: 200px;
     display: flex;
@@ -154,9 +166,12 @@ button{
 
 .sidebar__btn:hover{
     color: #E4717A;
+    transition: .2s ease-in-out;
 }
 
 .action{
+    position: relative;
+    z-index: 2;
     margin-top: 100px;
     width: 50%;
 }
@@ -193,12 +208,16 @@ button{
 .sorting-trash{
     padding-top: 300px;
     position: relative;
+    z-index: 2;
     padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
 }
 
 .sidebar-trash{
+    position: relative;
+    z-index: 2;
+
     width: 100%;
     backdrop-filter: blue(6px);
     -webkit-backdrop-filter: blue(6px);
@@ -210,6 +229,8 @@ button{
 
 
 .sidebar-trash__content{
+    position: relative;
+    z-index: 2;
     margin: 3%;
 }
 .sidebar-trash__title{
@@ -217,6 +238,7 @@ button{
     margin-bottom: 50px;
     margin-top: 50px;
     text-align: center;
+    line-height: 60px;
 }
 
 
@@ -239,6 +261,7 @@ button{
 
 .sidebar-trash__btn:hover{
     color: #E4717A;
+    transition: .2s ease-in-out;
 }
 
 .action{
@@ -264,21 +287,23 @@ button{
 }
 
 
-.katalog-trash__img{
-    overflow: hidden;
+.сatalog-trash__img{
+    /* overflow: hidden; */
     position: absolute;
-    width: 400px;
-    height: 400px;
-    top: 0%;
-    left: 15%;
+    width: 500px;
+    height: 500px;
+    top: -30%;
+    left: 40%;
+    z-index: 1;
 }
 
 /* .sorting-trash__img{
 
     position: absolute;
+    z-index: 1;
     transform: rotate(90deg);
     width: 100vh;
 
-    top: 20%;
+    top: 15%;
     right: 20%;
 } */
